@@ -1,0 +1,13 @@
+#calculator h4{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#lastupdate{
+  font-weight: 200;
+  color: gainsboro;
+  text-align: right !important;
+}
+
+#equalchar{
+  font-size:50px;
+}

@@ -1,0 +1,41 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <div class="container">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">BENTUR</a>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item active">
+          <a class="nav-link" routerLink ="" > {{ 'header.nav_home' | translate }} </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"> {{ 'header.nav_about' | translate }} </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink ="/supplyer-from-turkey" >{{ 'header.nav_services' | translate }}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"> {{ 'header.nav_contact' | translate }}  </a>
+        </li>
+      </ul>
+    </div>
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    <fa-icon [icon]="icons.languages"></fa-icon>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item"  (click)="useLanguage('tr')" > <img style="max-width:30px"  class="mx-1" src="https://image.flaticon.com/icons/png/512/197/197518.png" alt="">  Turkish</a></li>
+    <li><a class="dropdown-item" > <img style="max-width:30px"  class="mx-1" src="https://image.flaticon.com/icons/png/512/197/197539.png" alt="">  Benin</a></li>
+    <li><a class="dropdown-item"  (click)="useLanguage('en')"> <img style="max-width:30px"  class="mx-1" src="https://image.flaticon.com/icons/png/512/197/197485.png" alt="">  English</a></li>
+    <li> <a class="dropdown-item" ><i class="russia flag"></i>Русский</a>  </li>
+  </ul>
+</div>
+
+
+
+
+  </div>
+</nav>
+
+

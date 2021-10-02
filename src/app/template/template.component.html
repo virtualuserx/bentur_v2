@@ -1,0 +1,36 @@
+<!--
+
+
+<p>template works!</p>
+{{today }}
+<br>
+{{today | date}}
+
+
+<br><br><br>
+
+{{amount | currency : 'en-US'}}
+
+
+<h1 i18n="An introduction header for this sample" > Hello World </h1>
+
+
+-->
+
+
+<div>
+    <h1>{{ 'demo.title' | translate }}</h1>
+
+    <!-- translation: translation pipe -->
+    <p>{{ 'demo.text' | translate }}</p>
+
+    <!-- translation: directive (key as attribute)-->
+    <p [translate]="'demo.text'"></p>
+
+    <!-- translation: directive (key as content of element) -->
+    <p translate>demo.text</p>
+</div>
+
+
+<button (click)="useLanguage('en')">en</button>
+<button (click)="useLanguage('tr')">de</button>

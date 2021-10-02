@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/bentur",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

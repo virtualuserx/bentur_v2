@@ -1,0 +1,380 @@
+
+
+
+p {
+  margin: 20px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+a {
+  color: #222222;
+  text-decoration: none;
+  outline: none !important;
+}
+
+a,
+.btn {
+  text-decoration: none !important;
+  outline: none !important;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+:focus {
+  outline: 0;
+}
+
+.paddind_bottom_0 {
+  padding-bottom: 0 !important;
+}
+
+
+/*
+.form-control:focus {
+  border-color: black !important;
+  box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
+} */
+
+/*
+button {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+} */
+
+
+.layout_padding {
+  padding-top: 90px;
+  padding-bottom: 0px;
+
+  /* //yes */
+}
+
+.header_section{
+width: 100%;
+float: left;
+background-image: url(/assets/images/banner-bg.png);
+height: auto;
+background-size: 100%;
+background-repeat: no-repeat;
+ padding: 25px 0;
+}
+
+
+
+.number_tetx{
+width: 100%;
+float: left;
+font-size: 14px;
+color: #ffffff;
+padding-bottom:30px;
+padding-left: 10px;
+}
+.line{
+width: 100%;
+float: left;
+font-size: 14px;
+color: #ffffff;
+text-align: center;
+
+}
+/*
+.left_img {
+ width: 100%;
+ float: left;
+ margin-top: 40px;
+ text-align: center;
+} */
+
+.furniture_text{
+width: 100%;
+float: left;
+font-size: 84px;
+color: #060a0b;
+font-weight: bold;
+}
+.trends_text{
+width: 100%;
+float: left;
+font-size: 84px;
+color: #ffffff;
+font-weight: bold;
+ line-height: 75px;
+}
+
+.lorem_text{
+width: 100%;
+float: left;
+font-size: 17px;
+color: #ffffff;
+margin-left: 0px;
+}
+
+.more_bt {
+ width: 40%;
+ float: left;
+ background-color: #ffffff;
+ font-size: 17px;
+ color: #121010;
+ height: 50px;
+ font-weight: 700;
+ padding-top: 5px;
+}
+
+.furniture_bt {
+ width: 40%;
+ float: left;
+ background-color: #000000;
+ font-size: 17px;
+ color: #ffffff;
+ height: 50px;
+ font-weight: 700;
+ padding-top: 5px;
+ margin-left: 25px;
+}
+
+
+.product-top{
+margin-top: 50px;
+margin-bottom: 50px;
+}
+.product-items{
+background-color: #f5f5f5;
+
+}
+.allCat{
+border:1px solid #f5f5f5;
+border-radius: 10%;
+
+}
+.partners-logo{
+background-color: #f5f5f5;
+width: 100%;
+margin-top: 150px;
+
+}
+.secure-part{
+margin-top:90px;
+margin-bottom:90px;
+background-color:#f5f5f5;
+padding-top:70px;
+padding-bottom:70px;
+
+}
+
+.carousel-control-prev {
+z-index: 50;
+}
+
+
+.carousel-control-next {
+z-index: 50;
+}
+
+.carousel-indicators{
+z-index: 20;
+}
+
+.offer-part{
+background-color: #f5f5f5
+}
+.saatt{
+background-color:red;
+}
+.promotionn{
+margin-top:100px;
+}
+
+/* start of form */
+
+.contactpart{
+
+ border: 6px solid rgba(0, 0, 0, 0.3);
+ box-shadow: 20px 20px 0 rgba(0, 0, 0, 0.3);
+ border-radius: 50px;
+}
+.contactpart h2{
+color: rgba(0, 0, 0, 0.3);
+ font-size: 60px;
+ text-transform: uppercase;
+}
+.contactpart input,.contactpart select,
+.contactpart textarea{
+ background: transparent;
+ outline: none;
+ font-size: 24px;
+ border: 5px solid rgba(0, 0, 0, 0.3);
+ box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
+ border-radius: 50px;
+}
+.contactpart label {
+line-height: 40px;
+ font-size: 24px;
+ margin: 0 0 0 30px;
+ display: block;
+ pointer-events: none;
+}
+.contactpart input:focus,
+.contactpart textarea:focus,
+.contactpart select:focus {
+ border: 5px solid black;
+ transition: all 0.5s;
+}
+
+.contactpart input[type="submit"]{
+border: 5px solid rgba(0, 0, 0, 0.3);
+ box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
+ padding: 10px;
+ height: 100%;
+ width: 50%;
+ cursor: pointer;
+ outline: none;
+ background: transparent;
+ text-transform: uppercase;
+ /* color: #ffffff; */
+ line-height: 40px;
+ font-size: 24px;
+ font-weight: 700;
+ border-radius: 45px;
+ transition: all 0.4s;
+}
+
+.contactpart input[type="submit"]:hover {
+border: 5px solid black;
+/* color: #ffffff; */
+transition: all 0.4s;
+}
+
+@media screen and (max-width: 900px) {
+
+.contactpart h2 {
+ font-size: 34px;
+}
+
+.contactpart input[type="submit"] {
+ width: 100%;
+}
+}
+
+
+
+/* start of general css */
+/* You can add global styles to this file, and also import other style files */
+/* *{
+  background-color:rgb(255, 255, 255);
+} */
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+
+*{
+  box-sizing: border-box !important;
+  transition: ease all 0.5s;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #666666;
+  font-size: 14px;
+  font-family: poppins;
+  line-height: 1.80857;
+  font-weight: normal;
+  overflow-x: hidden;
+}
+
+a {
+  color: #1f1f1f;
+  text-decoration: none !important;
+  outline: none !important;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 0;
+  font-weight: normal;
+  position: relative;
+  padding: 0 0 10px 0;
+  font-weight: normal;
+  line-height: normal;
+  color: #111111;
+  margin: 0
+}
+
+h1 {
+  font-size: 24px
+}
+
+h2 {
+  font-size: 22px
+}
+
+h3 {
+  font-size: 18px
+}
+
+h4 {
+  font-size: 16px
+}
+
+h5 {
+  font-size: 14px
+}
+
+h6 {
+  font-size: 13px
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: #212121;
+  text-decoration: none!important;
+  opacity: 1
+}
+
+button:focus {
+  outline: none;
+}
+
+ngb-carousel .row{
+  margin-top:150px;
+}

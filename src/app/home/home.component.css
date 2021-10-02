@@ -1,0 +1,135 @@
+#intro{
+  margin-top: 100px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#intro span{
+  font-weight: bold;
+}
+
+
+.anasayfa_hakkimizda {
+  text-align: center;
+  overflow: hidden;
+}
+
+#imgmoney {
+  max-height:500px; object-fit:contain;
+  -moz-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -webkit-transform: scale(-1,1);
+    transform: scale(-1, 1);
+}
+
+#imgmoney2 {
+  max-height:500px; object-fit:contain;
+}
+
+
+.anasayfa_hakkimizda .box {
+  text-align: left;
+}
+
+.anasayfa_hakkimizda .box img {
+  border-radius: 5%;
+  object-fit: fill;
+}
+
+.anasayfa_hakkimizda .box p span {
+  display: inline;
+  font-size: 1rem;
+  color: rgb(1,74,151);
+  font-weight: bold;
+
+}
+
+.anasayfa_hakkimizda .box {
+  text-align: left;
+}
+
+.anasayfa_hakkimizda h4{
+  color: rgb(1,74,151);
+  font-weight: bold;
+}
+
+.anasayfa_hakkimizda h4.h4_up{
+visibility: hidden;
+}
+
+.anasayfa_hakkimizda .box h4.h4_in{
+position: absolute;
+top: 0;
+left: 20px;
+visibility: visible;
+}
+
+
+
+.anasayfa_hakkimizda .box h1 {
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 65px;
+  font-family: Verdana, sans-serif;
+
+}
+
+.anasayfa_hakkimizda fa-icon {
+  font-size: 60px;
+  width: 100px;
+  height: 100px;
+}
+
+.anasayfa_hakkimizda span {
+  display: block;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.hakkimizda_item_guven {
+  background-color: 	#d5f4e6;
+}
+
+.hakkimizda_item_plan {
+  background-color: #80ced6;
+}
+
+.hakkimizda_item_tasarim {
+  background-color: #fefbd8;
+}
+
+.hakkimizda_item_guven fa-icon {
+  color: rgba(1, 74, 151, 0.8);
+}
+
+.hakkimizda_item_plan fa-icon {
+  color: rgba(238, 62, 100, 0.842);
+}
+
+.hakkimizda_item_tasarim fa-icon {
+  color: rgba(179, 153, 7, 0.80);
+
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+  .anasayfa_hakkimizda .box h1 {
+      font-size: 40px;
+      line-height: 40px;
+  }
+
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  .anasayfa_hakkimizda .box h4.h4_up {
+      visibility: visible;
+      text-align: center;
+  }
+  .anasayfa_hakkimizda .box h4.h4_in {
+      visibility: hidden;
+  }
+
+}
